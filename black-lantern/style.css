@@ -1,0 +1,108 @@
+body {
+	background: #666;
+}
+
+.box {
+	position: relative;
+	display: block;
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	margin-top: 8%;
+	background: none;
+}
+
+.outer-dark-circle {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #2d2d2d;
+	border-radius: 50%;
+}
+
+.outer-light-circle {
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	top: 5%;
+	left: 5%;
+	background: #fcfdfe;
+	border-radius: 50%;
+}
+
+.inner-dark-circle {
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	top: 5%;
+	left: 5%;
+	background: #2d2d2d;
+	border-radius: 50%;
+}
+
+.inner-top-circle {
+	position: absolute;
+	width: 85%;
+	height: 85%;
+	top: 5%;
+	left: 4%;
+	border: 15px solid #2d2d2d;
+	background: none;
+	border-radius: 50%;
+}
+
+.upper-half {
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	left: 5%;
+	width: 90%;
+	height: 47%;
+}
+
+.lower-half {
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	top: 50%;
+}
+
+.rectangle {
+	width: 12.5%;
+	height: 100%;
+	background: #fcfdfe;
+}
+
+.first-rectangle {
+	width: 12.5%;
+	height: 71%;
+	background: #fcfdfe;
+}
+
+.last-rectangle {
+	width: 12.5%;
+	height: 71%;
+	background: #fcfdfe;
+}
+
+.light-triangle {
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 2.5%;
+	border-left: 190px solid transparent;
+	border-right: 190px solid transparent;
+	border-top: 190px solid #fcfdfe;
+}
+
+.dark-triangle {
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 10%;
+	left: 15%;
+	border-left: 140px solid transparent;
+	border-right: 140px solid transparent;
+	border-top: 140px solid #2d2d2d;
+}
